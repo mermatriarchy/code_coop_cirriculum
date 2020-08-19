@@ -4,7 +4,7 @@ Topics Covered: The Internet, Glitch tour, HTML
 
 ## Tools
 
-This week we'll use (Glitch)[https://glitch.com/] to learn about HTML & do some live-coding. It's free to use & you just need an email account to sign up.
+This week we'll use [Glitch](https://glitch.com/) to learn about HTML & do some live-coding. It's free to use & you just need an email account to sign up.
 
 ## What is the internet, really?
 
