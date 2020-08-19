@@ -22,22 +22,52 @@ The internet isn't one singular thing -- again, it's a network, so it's made up 
 - It's the standard markup language for documents that are displayed on a webpage
 - HTML files are saved with the .html extension
 
-### Tags
+### Elements
 
-When using
+When creating an HTML document, we use _tags_ to tell the browser that the document should be read as HTML.
 
-### Common Tags
+#### Common Elements
 
-### Nested Tags
+#### Nesting Tags
 
-### Attributes
+#### Attributes
 
-### Formatting
+#### Formatting
 
-### Comments
+#### Comments
 
-### A few tips on structuring your HTML page
+One of the most important things you'll learn about coding is to COMMENT YOUR CODE. Comments are text blocks that are not executed as part of your program, so they won't show up on your webpage, but instead allow you to add notes about different parts of the page or your program. They help you & other people understand what your code is supposed to be doing. Not every HTML element needs a comment, but if you end up coding a lot or working as a developer, you'll spend just as much time reading code as you do coding, especially if you're contributing to a big project with lots of other developers.
 
-### Linking pages to each other
+In HTML you write a comment like this:
+`<!-- This is a comment! -->`
+You open it with the `<!--` & end it with `-->`
 
-## More Resources
+An example of how this might be useful is:
+
+```
+<!-- begin about html section -->
+<section>
+    <h2>About HTML</h2>
+    <p>Here's some useful information about HTML!</p>
+    <ol>
+        <li>It's used to structure webpages</li>
+        <li>Elements consist of an opening tag and a closing tag</li>
+        <li>Browsers will display your content based on which HTML tags you use to mark up your page</li>
+    </ol>
+    <h3>Want to Learn More?</h3>
+    <p>Visit <a href="https://w3schools.com/html/html_intro.asp">W3Schools</a> to read more about HTML.</p>
+</section>
+<!-- end about html section -->
+```
+
+As your HTML blocks get larger & your document gets longer, it's helpful to keep track of where some blocks start & end.
+
+So again, COMMENT YOUR CODE. It's really important.
+
+#### A few tips on structuring your HTML page
+
+Pretty much EVERY HTML document starts & ends with the same basic tags.
+
+#### Linking pages to each other
+
+### More Resources
