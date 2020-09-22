@@ -22,21 +22,19 @@ The internet isn't one singular thing -- again, it's a network, so it's made up 
 - It's the standard markup language for documents that are displayed on a webpage
 - HTML files are saved with the .html extension
 
-### Elements
+### HTML Topics Covered
 
-When creating an HTML document, we use _tags_ to tell the browser that the document should be read as HTML.
-
-#### Common Elements
-
-#### Nesting Tags
-
-#### Attributes
-
-#### Formatting
+- Elements & tags
+- Common Elements
+- Nesting Tags
+- Attributes
+- Formatting
 
 #### Comments
 
-One of the most important things you'll learn about coding is to COMMENT YOUR CODE. Comments are text blocks that are not executed as part of your program, so they won't show up on your webpage, but instead allow you to add notes about different parts of the page or your program. They help you & other people understand what your code is supposed to be doing. Not every HTML element needs a comment, but if you end up coding a lot or working as a developer, you'll spend just as much time reading code as you do coding, especially if you're contributing to a big project with lots of other developers.
+Comments get their own section because they're important.
+
+One of the most important things you'll learn about coding is to COMMENT YOUR CODE. Comments are text blocks that are not executed as part of your program, so they won't show up on your webpage, but instead allow you to add notes about different parts of the page or your program. They help you & other people understand what your code is supposed to be doing. Not every HTML element needs a comment, but if you end up coding a lot or working as a developer, you'll spend just as much time reading code as you do coding, especially if you're contributing to a big project with lots of other developers, so it's helpful to add a few notes as you go so other people can follow along.
 
 In HTML you write a comment like this:
 `<!-- This is a comment! -->`
@@ -68,6 +66,30 @@ So again, COMMENT YOUR CODE. It's really important.
 
 Pretty much EVERY HTML document starts & ends with the same basic tags.
 
-#### Linking pages to each other
+Here is the basic DOCTYPE declaration for an HTML file via [W3 Schools](https://www.w3schools.com/tags/tag_doctype.asp):
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+The content of the document......
+</body>
+
+</html>
+```
 
 ### More Resources
+
+- [W3Schools HTML Docs](https://www.w3schools.com/html/default.asp)
+- Harvard CS50 - What is the Internet? on YouTube
+- Learn HTML on [codecademy](https://www.codecademy.com/learn/learn-html) (good practice)
+
+### Practice Ideas
+
+- Write a recipe in HTML - use an unordered list for ingredients, an ordered list for steps, start the page with a title, etc
+  - If you don't want to write a recipe, write a post about how to do _anything_ you want -- how to build something, how to record music in the studio, how to fix a car -- the idea is to use good semantic HTML
+- Start a webpage about yourself with a title and two different sections about you. Use sections to divide up the page, & use the appropriate header tags for each section
