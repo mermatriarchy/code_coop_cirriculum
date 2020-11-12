@@ -82,14 +82,21 @@ The content of the document......
 </html>
 ```
 
-### More Resources
+## More Resources
 
 - [W3Schools HTML Docs](https://www.w3schools.com/html/default.asp)
 - Harvard CS50 - What is the Internet? on YouTube
 - Learn HTML on [codecademy](https://www.codecademy.com/learn/learn-html) (good practice)
 
-### Practice Ideas
+## Practice Ideas
 
 - Write a recipe in HTML - use an unordered list for ingredients, an ordered list for steps, start the page with a title, etc
   - If you don't want to write a recipe, write a post about how to do _anything_ you want -- how to build something, how to record music in the studio, how to fix a car -- the idea is to use good semantic HTML
 - Start a webpage about yourself with a title and two different sections about you. Use sections to divide up the page, & use the appropriate header tags for each section
+
+## Key Take Aways
+
+- The internet is a big file sharing network
+- HTML is a markup language that gives webpages structure
+- Format your code properly for easy reading!!
+- COMMENT YOUR CODE
